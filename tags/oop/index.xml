@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>OOP on Vũ Minh Thiện | Blog &amp; Portfolio</title>
-    <link>http://localhost:1313/tags/oop/</link>
+    <link>https://vuminhthien5.github.io/tags/oop/</link>
     <description>Recent content in OOP on Vũ Minh Thiện | Blog &amp; Portfolio</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>vi</language>
     <lastBuildDate>Fri, 03 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/oop/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://vuminhthien5.github.io/tags/oop/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lập trình hướng đối tượng trong Java</title>
-      <link>http://localhost:1313/posts/lap-trinh-huong-doi-tuong-java/</link>
+      <link>https://vuminhthien5.github.io/posts/lap-trinh-huong-doi-tuong-java/</link>
       <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/lap-trinh-huong-doi-tuong-java/</guid>
+      <guid>https://vuminhthien5.github.io/posts/lap-trinh-huong-doi-tuong-java/</guid>
       <description>&lt;h2 id=&#34;1-oop-là-gì&#34;&gt;1. OOP là gì?&lt;/h2&gt;
 &lt;p&gt;Lập trình hướng đối tượng (OOP) là phương pháp lập trình dựa trên các đối tượng.&lt;/p&gt;
 &lt;h2 id=&#34;2-4-tính-chất-của-oop&#34;&gt;2. 4 tính chất của OOP&lt;/h2&gt;

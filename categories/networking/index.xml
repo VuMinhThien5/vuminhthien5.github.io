@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Networking on Vũ Minh Thiện | Blog &amp; Portfolio</title>
-    <link>http://localhost:1313/categories/networking/</link>
+    <link>https://vuminhthien5.github.io/categories/networking/</link>
     <description>Recent content in Networking on Vũ Minh Thiện | Blog &amp; Portfolio</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>vi</language>
     <lastBuildDate>Mon, 13 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/networking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://vuminhthien5.github.io/categories/networking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Các giao thức mạng phổ biến: HTTP, HTTPS, FTP, DNS</title>
-      <link>http://localhost:1313/posts/cac-giao-thuc-mang-pho-bien/</link>
+      <link>https://vuminhthien5.github.io/posts/cac-giao-thuc-mang-pho-bien/</link>
       <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/cac-giao-thuc-mang-pho-bien/</guid>
+      <guid>https://vuminhthien5.github.io/posts/cac-giao-thuc-mang-pho-bien/</guid>
       <description>&lt;h2 id=&#34;1-http-và-https&#34;&gt;1. HTTP và HTTPS&lt;/h2&gt;
 &lt;p&gt;HTTP là giao thức truyền tải dữ liệu trên Web.&lt;br&gt;
 HTTPS là phiên bản bảo mật hơn, sử dụng mã hóa SSL/TLS.&lt;/p&gt;
@@ -25,9 +25,9 @@ HTTPS là phiên bản bảo mật hơn, sử dụng mã hóa SSL/TLS.&lt;/p&gt;
     </item>
     <item>
       <title>Địa chỉ IP, Subnet Mask và cách hoạt động</title>
-      <link>http://localhost:1313/posts/dia-chi-ip-va-subnet/</link>
+      <link>https://vuminhthien5.github.io/posts/dia-chi-ip-va-subnet/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dia-chi-ip-va-subnet/</guid>
+      <guid>https://vuminhthien5.github.io/posts/dia-chi-ip-va-subnet/</guid>
       <description>&lt;h2 id=&#34;1-địa-chỉ-ip-là-gì&#34;&gt;1. Địa chỉ IP là gì?&lt;/h2&gt;
 &lt;p&gt;Địa chỉ IP là một chuỗi số dùng để định danh các thiết bị trong mạng.&lt;br&gt;
 IPv4 là dạng phổ biến nhất hiện nay, gồm 4 nhóm số từ 0 đến 255.&lt;/p&gt;
@@ -47,9 +47,9 @@ IPv4 là dạng phổ biến nhất hiện nay, gồm 4 nhóm số từ 0 đến
     </item>
     <item>
       <title>Thiết bị mạng cơ bản: Router, Switch, Access Point</title>
-      <link>http://localhost:1313/posts/thiet-bi-mang-co-ban/</link>
+      <link>https://vuminhthien5.github.io/posts/thiet-bi-mang-co-ban/</link>
       <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/thiet-bi-mang-co-ban/</guid>
+      <guid>https://vuminhthien5.github.io/posts/thiet-bi-mang-co-ban/</guid>
       <description>&lt;h2 id=&#34;1-router&#34;&gt;1. Router&lt;/h2&gt;
 &lt;p&gt;Router là thiết bị định tuyến, có nhiệm vụ kết nối các mạng khác nhau và định hướng gói tin đến đúng đích.&lt;/p&gt;
 &lt;h2 id=&#34;2-switch&#34;&gt;2. Switch&lt;/h2&gt;
@@ -60,9 +60,9 @@ Switch hoạt động hiệu quả hơn Hub vì chỉ gửi dữ liệu đến �
     </item>
     <item>
       <title>Mạng máy tính là gì? Các loại mạng phổ biến</title>
-      <link>http://localhost:1313/posts/mang-may-tinh-la-gi/</link>
+      <link>https://vuminhthien5.github.io/posts/mang-may-tinh-la-gi/</link>
       <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/mang-may-tinh-la-gi/</guid>
+      <guid>https://vuminhthien5.github.io/posts/mang-may-tinh-la-gi/</guid>
       <description>&lt;h2 id=&#34;1-mạng-máy-tính-là-gì&#34;&gt;1. Mạng máy tính là gì?&lt;/h2&gt;
 &lt;p&gt;Mạng máy tính là hệ thống các thiết bị được kết nối với nhau nhằm chia sẻ dữ liệu, tài nguyên và thông tin. Các thiết bị trong mạng có thể là máy tính, máy chủ, điện thoại, máy in hoặc các thiết bị thông minh khác.&lt;/p&gt;
 &lt;p&gt;Mạng máy tính đóng vai trò quan trọng trong học tập, làm việc và phát triển các hệ thống phần mềm hiện đại.&lt;/p&gt;</description>
