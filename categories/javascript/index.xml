@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>JavaScript on Vũ Minh Thiện | Blog &amp; Portfolio</title>
+    <link>https://vuminhthien5.github.io/categories/javascript/</link>
+    <description>Recent content in JavaScript on Vũ Minh Thiện | Blog &amp; Portfolio</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>vi</language>
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://vuminhthien5.github.io/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Promise và xử lý bất đồng bộ trong JavaScript</title>
+      <link>https://vuminhthien5.github.io/posts/bat-dong-bo-trong-javascript/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/bat-dong-bo-trong-javascript/</guid>
+      <description>&lt;h2 id=&#34;1-lập-trình-bất-đồng-bộ-là-gì&#34;&gt;1. Lập trình bất đồng bộ là gì?&lt;/h2&gt;
+&lt;p&gt;Bất đồng bộ giúp chương trình không bị chặn khi xử lý các tác vụ mất nhiều thời gian như gọi API hoặc đọc dữ liệu.&lt;/p&gt;
+&lt;h2 id=&#34;2-promise&#34;&gt;2. Promise&lt;/h2&gt;
+&lt;p&gt;Promise đại diện cho một giá trị sẽ có trong tương lai, có 3 trạng thái:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pending&lt;/li&gt;
+&lt;li&gt;Fulfilled&lt;/li&gt;
+&lt;li&gt;Rejected&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-async--await&#34;&gt;3. async / await&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;async / await&lt;/code&gt; giúp viết code bất đồng bộ dễ đọc và dễ bảo trì hơn.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kiểu dữ liệu và toán tử trong JavaScript</title>
+      <link>https://vuminhthien5.github.io/posts/kieu-du-lieu-trong-javascript/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/kieu-du-lieu-trong-javascript/</guid>
+      <description>&lt;h2 id=&#34;1-kiểu-dữ-liệu-trong-javascript&#34;&gt;1. Kiểu dữ liệu trong JavaScript&lt;/h2&gt;
+&lt;p&gt;JavaScript hỗ trợ nhiều kiểu dữ liệu như:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Number&lt;/li&gt;
+&lt;li&gt;String&lt;/li&gt;
+&lt;li&gt;Boolean&lt;/li&gt;
+&lt;li&gt;Object&lt;/li&gt;
+&lt;li&gt;Array&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-toán-tử&#34;&gt;2. Toán tử&lt;/h2&gt;
+&lt;p&gt;JavaScript có các toán tử:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Toán tử số học: &lt;code&gt;+&lt;/code&gt;, &lt;code&gt;-&lt;/code&gt;, &lt;code&gt;*&lt;/code&gt;, &lt;code&gt;/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Toán tử so sánh: &lt;code&gt;==&lt;/code&gt;, &lt;code&gt;===&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Toán tử logic: &lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt;, &lt;code&gt;||&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Việc hiểu rõ kiểu dữ liệu giúp lập trình hiệu quả và tránh lỗi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fetch API và gọi REST API bằng JavaScript</title>
+      <link>https://vuminhthien5.github.io/posts/fetch-api-javascript/</link>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/fetch-api-javascript/</guid>
+      <description>&lt;h2 id=&#34;1-fetch-api-là-gì&#34;&gt;1. Fetch API là gì?&lt;/h2&gt;
+&lt;p&gt;Fetch API dùng để gửi request HTTP từ trình duyệt.&lt;/p&gt;
+&lt;h2 id=&#34;2-ví-dụ-gọi-api&#34;&gt;2. Ví dụ gọi API&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fetch&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://api.example.com/data&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    .&lt;span style=&#34;color:#a6e22e&#34;&gt;then&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;response&lt;/span&gt; =&amp;gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;response&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;json&lt;/span&gt;())
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    .&lt;span style=&#34;color:#a6e22e&#34;&gt;then&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;data&lt;/span&gt; =&amp;gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;data&lt;/span&gt;));
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;##&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3.&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Kết&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;luận&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Fetch&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;API&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;là&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;công&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;cụ&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;quan&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;trọng&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;trong&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;web&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;hiện&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;đại&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>DOM và xử lý sự kiện trong JavaScript</title>
+      <link>https://vuminhthien5.github.io/posts/dom-va-su-kien-javascript/</link>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/dom-va-su-kien-javascript/</guid>
+      <description>&lt;h2 id=&#34;1-dom-là-gì&#34;&gt;1. DOM là gì?&lt;/h2&gt;
+&lt;p&gt;DOM là mô hình biểu diễn cấu trúc HTML dưới dạng cây đối tượng.&lt;/p&gt;
+&lt;h2 id=&#34;2-xử-lý-sự-kiện&#34;&gt;2. Xử lý sự kiện&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;button&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;addEventListener&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;click&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;alert&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Button clicked&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;##&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3.&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Kết&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;luận&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;DOM&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;giúp&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;JavaScript&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;tương&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;tác&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;trực&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;tiếp&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;với&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;trang&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;web&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Biến, hàm và scope trong JavaScript</title>
+      <link>https://vuminhthien5.github.io/posts/bien-ham-scope-javascript/</link>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/bien-ham-scope-javascript/</guid>
+      <description>&lt;h2 id=&#34;1-biến-trong-javascript&#34;&gt;1. Biến trong JavaScript&lt;/h2&gt;
+&lt;p&gt;Các từ khóa khai báo biến:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;var&lt;/li&gt;
+&lt;li&gt;let&lt;/li&gt;
+&lt;li&gt;const&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-hàm&#34;&gt;2. Hàm&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;hello&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello JavaScript&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;##&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3.&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Scope&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Scope&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;xác&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;định&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;phạm&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;vi&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;truy&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;cập&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;của&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;biến&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;##&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;4.&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Kết&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;luận&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Hiểu&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rõ&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;biến&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;và&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;scope&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;giúp&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;tránh&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;lỗi&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;logic&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript là gì? Ứng dụng trong Web</title>
+      <link>https://vuminhthien5.github.io/posts/gioi-thieu-javascript/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/gioi-thieu-javascript/</guid>
+      <description>&lt;h2 id=&#34;1-javascript-là-gì&#34;&gt;1. JavaScript là gì?&lt;/h2&gt;
+&lt;p&gt;JavaScript là ngôn ngữ lập trình kịch bản chạy trên trình duyệt web.&lt;/p&gt;
+&lt;h2 id=&#34;2-vai-trò-của-javascript&#34;&gt;2. Vai trò của JavaScript&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tạo tương tác cho website&lt;/li&gt;
+&lt;li&gt;Xử lý sự kiện&lt;/li&gt;
+&lt;li&gt;Giao tiếp với server&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-kết-luận&#34;&gt;3. Kết luận&lt;/h2&gt;
+&lt;p&gt;JavaScript là ngôn ngữ không thể thiếu trong phát triển web hiện đại.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

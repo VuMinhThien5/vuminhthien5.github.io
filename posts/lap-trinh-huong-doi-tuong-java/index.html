@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="light">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Lập trình hướng đối tượng trong Java | Vũ Minh Thiện | Blog &amp; Portfolio</title>
+<meta name="keywords" content="Java, OOP">
+<meta name="description" content="1. OOP là gì?
+Lập trình hướng đối tượng (OOP) là phương pháp lập trình dựa trên các đối tượng.
+2. 4 tính chất của OOP
+
+Đóng gói
+Kế thừa
+Đa hình
+Trừu tượng
+
+3. Ví dụ Class trong Java
+class SinhVien {
+    String ten;
+    int tuoi;
+
+    void hienThi() {
+        System.out.println(ten &#43; &#34; - &#34; &#43; tuoi);
+    }
+}
+
+## 4. Kết luận
+OOP giúp chương trình dễ bảo trì và mở rộng.
+">
+<meta name="author" content="">
+<link rel="canonical" href="https://vuminhthien5.github.io/posts/lap-trinh-huong-doi-tuong-java/">
+
+<link crossorigin="anonymous" href="https://vuminhthien5.github.io/assets/css/stylesheet.css" rel="stylesheet">
+<link rel="icon" href="https://vuminhthien5.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://vuminhthien5.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://vuminhthien5.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://vuminhthien5.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://vuminhthien5.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://vuminhthien5.github.io/posts/lap-trinh-huong-doi-tuong-java/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    }
+
+</script><meta property="og:url" content="https://vuminhthien5.github.io/posts/lap-trinh-huong-doi-tuong-java/">
+  <meta property="og:site_name" content="Vũ Minh Thiện | Blog & Portfolio">
+  <meta property="og:title" content="Lập trình hướng đối tượng trong Java">
+  <meta property="og:description" content="1. OOP là gì? Lập trình hướng đối tượng (OOP) là phương pháp lập trình dựa trên các đối tượng.
+2. 4 tính chất của OOP Đóng gói Kế thừa Đa hình Trừu tượng 3. Ví dụ Class trong Java class SinhVien { String ten; int tuoi; void hienThi() { System.out.println(ten &#43; &#34; - &#34; &#43; tuoi); } } ## 4. Kết luận OOP giúp chương trình dễ bảo trì và mở rộng. ">
+  <meta property="og:locale" content="vi">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-01-03T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-01-03T00:00:00+00:00">
+    <meta property="article:tag" content="Java">
+    <meta property="article:tag" content="OOP">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Lập trình hướng đối tượng trong Java">
+<meta name="twitter:description" content="1. OOP là gì?
+Lập trình hướng đối tượng (OOP) là phương pháp lập trình dựa trên các đối tượng.
+2. 4 tính chất của OOP
+
+Đóng gói
+Kế thừa
+Đa hình
+Trừu tượng
+
+3. Ví dụ Class trong Java
+class SinhVien {
+    String ten;
+    int tuoi;
+
+    void hienThi() {
+        System.out.println(ten &#43; &#34; - &#34; &#43; tuoi);
+    }
+}
+
+## 4. Kết luận
+OOP giúp chương trình dễ bảo trì và mở rộng.
+">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://vuminhthien5.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Lập trình hướng đối tượng trong Java",
+      "item": "https://vuminhthien5.github.io/posts/lap-trinh-huong-doi-tuong-java/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Lập trình hướng đối tượng trong Java",
+  "name": "Lập trình hướng đối tượng trong Java",
+  "description": "1. OOP là gì? Lập trình hướng đối tượng (OOP) là phương pháp lập trình dựa trên các đối tượng.\n2. 4 tính chất của OOP Đóng gói Kế thừa Đa hình Trừu tượng 3. Ví dụ Class trong Java class SinhVien { String ten; int tuoi; void hienThi() { System.out.println(ten + \u0026#34; - \u0026#34; + tuoi); } } ## 4. Kết luận OOP giúp chương trình dễ bảo trì và mở rộng. ",
+  "keywords": [
+    "Java", "OOP"
+  ],
+  "articleBody": "1. OOP là gì? Lập trình hướng đối tượng (OOP) là phương pháp lập trình dựa trên các đối tượng.\n2. 4 tính chất của OOP Đóng gói Kế thừa Đa hình Trừu tượng 3. Ví dụ Class trong Java class SinhVien { String ten; int tuoi; void hienThi() { System.out.println(ten + \" - \" + tuoi); } } ## 4. Kết luận OOP giúp chương trình dễ bảo trì và mở rộng. ",
+  "wordCount" : "73",
+  "inLanguage": "en",
+  "datePublished": "2025-01-03T00:00:00Z",
+  "dateModified": "2025-01-03T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://vuminhthien5.github.io/posts/lap-trinh-huong-doi-tuong-java/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Vũ Minh Thiện | Blog \u0026 Portfolio",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://vuminhthien5.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://vuminhthien5.github.io/" accesskey="h" title="Vũ Minh Thiện | Blog &amp; Portfolio (Alt + H)">Vũ Minh Thiện | Blog &amp; Portfolio</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://vuminhthien5.github.io/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://vuminhthien5.github.io/posts/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://vuminhthien5.github.io/projects/" title="Dự án">
+                    <span>Dự án</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://vuminhthien5.github.io/about/" title="Giới thiệu">
+                    <span>Giới thiệu</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Lập trình hướng đối tượng trong Java
+    </h1>
+    <div class="post-meta"><span title='2025-01-03 00:00:00 +0000 UTC'>January 3, 2025</span>&nbsp;·&nbsp;<span>1 min</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#1-oop-l%c3%a0-g%c3%ac" aria-label="1. OOP là gì?">1. OOP là gì?</a></li>
+                <li>
+                    <a href="#2-4-t%c3%adnh-ch%e1%ba%a5t-c%e1%bb%a7a-oop" aria-label="2. 4 tính chất của OOP">2. 4 tính chất của OOP</a></li>
+                <li>
+                    <a href="#3-v%c3%ad-d%e1%bb%a5-class-trong-java" aria-label="3. Ví dụ Class trong Java">3. Ví dụ Class trong Java</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="1-oop-là-gì">1. OOP là gì?<a hidden class="anchor" aria-hidden="true" href="#1-oop-là-gì">#</a></h2>
+<p>Lập trình hướng đối tượng (OOP) là phương pháp lập trình dựa trên các đối tượng.</p>
+<h2 id="2-4-tính-chất-của-oop">2. 4 tính chất của OOP<a hidden class="anchor" aria-hidden="true" href="#2-4-tính-chất-của-oop">#</a></h2>
+<ul>
+<li>Đóng gói</li>
+<li>Kế thừa</li>
+<li>Đa hình</li>
+<li>Trừu tượng</li>
+</ul>
+<h2 id="3-ví-dụ-class-trong-java">3. Ví dụ Class trong Java<a hidden class="anchor" aria-hidden="true" href="#3-ví-dụ-class-trong-java">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">SinhVien</span> {
+</span></span><span style="display:flex;"><span>    String ten;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> tuoi;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">hienThi</span>() {
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(ten <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; - &#34;</span> <span style="color:#f92672">+</span> tuoi);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">##</span> 4. Kết luận
+</span></span><span style="display:flex;"><span>OOP giúp chương trình dễ bảo trì và mở rộng.
+</span></span></code></pre></div>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://vuminhthien5.github.io/tags/java/">Java</a></li>
+      <li><a href="https://vuminhthien5.github.io/tags/oop/">OOP</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://vuminhthien5.github.io/">Vũ Minh Thiện | Blog &amp; Portfolio</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

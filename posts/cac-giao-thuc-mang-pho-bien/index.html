@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="light">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Các giao thức mạng phổ biến: HTTP, HTTPS, FTP, DNS | Vũ Minh Thiện | Blog &amp; Portfolio</title>
+<meta name="keywords" content="Networking, Cisco, Web">
+<meta name="description" content="1. HTTP và HTTPS
+HTTP là giao thức truyền tải dữ liệu trên Web.
+HTTPS là phiên bản bảo mật hơn, sử dụng mã hóa SSL/TLS.
+2. FTP
+FTP dùng để truyền file giữa máy client và server.
+3. DNS
+DNS giúp chuyển đổi tên miền (ví dụ google.com) thành địa chỉ IP để máy tính có thể giao tiếp với nhau.
+4. Vai trò trong lập trình
+Các giao thức này là nền tảng cho Web, API và các hệ thống Client–Server.">
+<meta name="author" content="">
+<link rel="canonical" href="https://vuminhthien5.github.io/posts/cac-giao-thuc-mang-pho-bien/">
+
+<link crossorigin="anonymous" href="https://vuminhthien5.github.io/assets/css/stylesheet.css" rel="stylesheet">
+<link rel="icon" href="https://vuminhthien5.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://vuminhthien5.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://vuminhthien5.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://vuminhthien5.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://vuminhthien5.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://vuminhthien5.github.io/posts/cac-giao-thuc-mang-pho-bien/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    }
+
+</script><meta property="og:url" content="https://vuminhthien5.github.io/posts/cac-giao-thuc-mang-pho-bien/">
+  <meta property="og:site_name" content="Vũ Minh Thiện | Blog & Portfolio">
+  <meta property="og:title" content="Các giao thức mạng phổ biến: HTTP, HTTPS, FTP, DNS">
+  <meta property="og:description" content="1. HTTP và HTTPS HTTP là giao thức truyền tải dữ liệu trên Web.
+HTTPS là phiên bản bảo mật hơn, sử dụng mã hóa SSL/TLS.
+2. FTP FTP dùng để truyền file giữa máy client và server.
+3. DNS DNS giúp chuyển đổi tên miền (ví dụ google.com) thành địa chỉ IP để máy tính có thể giao tiếp với nhau.
+4. Vai trò trong lập trình Các giao thức này là nền tảng cho Web, API và các hệ thống Client–Server.">
+  <meta property="og:locale" content="vi">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-01-13T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-01-13T00:00:00+00:00">
+    <meta property="article:tag" content="Networking">
+    <meta property="article:tag" content="Cisco">
+    <meta property="article:tag" content="Web">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Các giao thức mạng phổ biến: HTTP, HTTPS, FTP, DNS">
+<meta name="twitter:description" content="1. HTTP và HTTPS
+HTTP là giao thức truyền tải dữ liệu trên Web.
+HTTPS là phiên bản bảo mật hơn, sử dụng mã hóa SSL/TLS.
+2. FTP
+FTP dùng để truyền file giữa máy client và server.
+3. DNS
+DNS giúp chuyển đổi tên miền (ví dụ google.com) thành địa chỉ IP để máy tính có thể giao tiếp với nhau.
+4. Vai trò trong lập trình
+Các giao thức này là nền tảng cho Web, API và các hệ thống Client–Server.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://vuminhthien5.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Các giao thức mạng phổ biến: HTTP, HTTPS, FTP, DNS",
+      "item": "https://vuminhthien5.github.io/posts/cac-giao-thuc-mang-pho-bien/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Các giao thức mạng phổ biến: HTTP, HTTPS, FTP, DNS",
+  "name": "Các giao thức mạng phổ biến: HTTP, HTTPS, FTP, DNS",
+  "description": "1. HTTP và HTTPS HTTP là giao thức truyền tải dữ liệu trên Web.\nHTTPS là phiên bản bảo mật hơn, sử dụng mã hóa SSL/TLS.\n2. FTP FTP dùng để truyền file giữa máy client và server.\n3. DNS DNS giúp chuyển đổi tên miền (ví dụ google.com) thành địa chỉ IP để máy tính có thể giao tiếp với nhau.\n4. Vai trò trong lập trình Các giao thức này là nền tảng cho Web, API và các hệ thống Client–Server.\n",
+  "keywords": [
+    "Networking", "Cisco", "Web"
+  ],
+  "articleBody": "1. HTTP và HTTPS HTTP là giao thức truyền tải dữ liệu trên Web.\nHTTPS là phiên bản bảo mật hơn, sử dụng mã hóa SSL/TLS.\n2. FTP FTP dùng để truyền file giữa máy client và server.\n3. DNS DNS giúp chuyển đổi tên miền (ví dụ google.com) thành địa chỉ IP để máy tính có thể giao tiếp với nhau.\n4. Vai trò trong lập trình Các giao thức này là nền tảng cho Web, API và các hệ thống Client–Server.\n",
+  "wordCount" : "83",
+  "inLanguage": "en",
+  "datePublished": "2025-01-13T00:00:00Z",
+  "dateModified": "2025-01-13T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://vuminhthien5.github.io/posts/cac-giao-thuc-mang-pho-bien/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Vũ Minh Thiện | Blog \u0026 Portfolio",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://vuminhthien5.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://vuminhthien5.github.io/" accesskey="h" title="Vũ Minh Thiện | Blog &amp; Portfolio (Alt + H)">Vũ Minh Thiện | Blog &amp; Portfolio</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://vuminhthien5.github.io/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://vuminhthien5.github.io/posts/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://vuminhthien5.github.io/projects/" title="Dự án">
+                    <span>Dự án</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://vuminhthien5.github.io/about/" title="Giới thiệu">
+                    <span>Giới thiệu</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Các giao thức mạng phổ biến: HTTP, HTTPS, FTP, DNS
+    </h1>
+    <div class="post-meta"><span title='2025-01-13 00:00:00 +0000 UTC'>January 13, 2025</span>&nbsp;·&nbsp;<span>1 min</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#1-http-v%c3%a0-https" aria-label="1. HTTP và HTTPS">1. HTTP và HTTPS</a></li>
+                <li>
+                    <a href="#2-ftp" aria-label="2. FTP">2. FTP</a></li>
+                <li>
+                    <a href="#3-dns" aria-label="3. DNS">3. DNS</a></li>
+                <li>
+                    <a href="#4-vai-tr%c3%b2-trong-l%e1%ba%adp-tr%c3%acnh" aria-label="4. Vai trò trong lập trình">4. Vai trò trong lập trình</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="1-http-và-https">1. HTTP và HTTPS<a hidden class="anchor" aria-hidden="true" href="#1-http-và-https">#</a></h2>
+<p>HTTP là giao thức truyền tải dữ liệu trên Web.<br>
+HTTPS là phiên bản bảo mật hơn, sử dụng mã hóa SSL/TLS.</p>
+<h2 id="2-ftp">2. FTP<a hidden class="anchor" aria-hidden="true" href="#2-ftp">#</a></h2>
+<p>FTP dùng để truyền file giữa máy client và server.</p>
+<h2 id="3-dns">3. DNS<a hidden class="anchor" aria-hidden="true" href="#3-dns">#</a></h2>
+<p>DNS giúp chuyển đổi tên miền (ví dụ google.com) thành địa chỉ IP để máy tính có thể giao tiếp với nhau.</p>
+<h2 id="4-vai-trò-trong-lập-trình">4. Vai trò trong lập trình<a hidden class="anchor" aria-hidden="true" href="#4-vai-trò-trong-lập-trình">#</a></h2>
+<p>Các giao thức này là nền tảng cho Web, API và các hệ thống Client–Server.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://vuminhthien5.github.io/tags/networking/">Networking</a></li>
+      <li><a href="https://vuminhthien5.github.io/tags/cisco/">Cisco</a></li>
+      <li><a href="https://vuminhthien5.github.io/tags/web/">Web</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://vuminhthien5.github.io/">Vũ Minh Thiện | Blog &amp; Portfolio</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
