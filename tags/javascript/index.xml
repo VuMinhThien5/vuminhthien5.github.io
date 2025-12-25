@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>JavaScript on Vũ Minh Thiện | Blog &amp; Portfolio</title>
-    <link>http://localhost:1313/tags/javascript/</link>
+    <link>https://vuminhthien5.github.io/tags/javascript/</link>
     <description>Recent content in JavaScript on Vũ Minh Thiện | Blog &amp; Portfolio</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>vi</language>
     <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://vuminhthien5.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Promise và xử lý bất đồng bộ trong JavaScript</title>
-      <link>http://localhost:1313/posts/bat-dong-bo-trong-javascript/</link>
+      <link>https://vuminhthien5.github.io/posts/bat-dong-bo-trong-javascript/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/bat-dong-bo-trong-javascript/</guid>
+      <guid>https://vuminhthien5.github.io/posts/bat-dong-bo-trong-javascript/</guid>
       <description>&lt;h2 id=&#34;1-lập-trình-bất-đồng-bộ-là-gì&#34;&gt;1. Lập trình bất đồng bộ là gì?&lt;/h2&gt;
 &lt;p&gt;Bất đồng bộ giúp chương trình không bị chặn khi xử lý các tác vụ mất nhiều thời gian như gọi API hoặc đọc dữ liệu.&lt;/p&gt;
 &lt;h2 id=&#34;2-promise&#34;&gt;2. Promise&lt;/h2&gt;
@@ -27,9 +27,9 @@
     </item>
     <item>
       <title>Kiểu dữ liệu và toán tử trong JavaScript</title>
-      <link>http://localhost:1313/posts/kieu-du-lieu-trong-javascript/</link>
+      <link>https://vuminhthien5.github.io/posts/kieu-du-lieu-trong-javascript/</link>
       <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/kieu-du-lieu-trong-javascript/</guid>
+      <guid>https://vuminhthien5.github.io/posts/kieu-du-lieu-trong-javascript/</guid>
       <description>&lt;h2 id=&#34;1-kiểu-dữ-liệu-trong-javascript&#34;&gt;1. Kiểu dữ liệu trong JavaScript&lt;/h2&gt;
 &lt;p&gt;JavaScript hỗ trợ nhiều kiểu dữ liệu như:&lt;/p&gt;
 &lt;ul&gt;
@@ -50,9 +50,9 @@
     </item>
     <item>
       <title>Fetch API và gọi REST API bằng JavaScript</title>
-      <link>http://localhost:1313/posts/fetch-api-javascript/</link>
+      <link>https://vuminhthien5.github.io/posts/fetch-api-javascript/</link>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/fetch-api-javascript/</guid>
+      <guid>https://vuminhthien5.github.io/posts/fetch-api-javascript/</guid>
       <description>&lt;h2 id=&#34;1-fetch-api-là-gì&#34;&gt;1. Fetch API là gì?&lt;/h2&gt;
 &lt;p&gt;Fetch API dùng để gửi request HTTP từ trình duyệt.&lt;/p&gt;
 &lt;h2 id=&#34;2-ví-dụ-gọi-api&#34;&gt;2. Ví dụ gọi API&lt;/h2&gt;
@@ -66,9 +66,9 @@
     </item>
     <item>
       <title>DOM và xử lý sự kiện trong JavaScript</title>
-      <link>http://localhost:1313/posts/dom-va-su-kien-javascript/</link>
+      <link>https://vuminhthien5.github.io/posts/dom-va-su-kien-javascript/</link>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dom-va-su-kien-javascript/</guid>
+      <guid>https://vuminhthien5.github.io/posts/dom-va-su-kien-javascript/</guid>
       <description>&lt;h2 id=&#34;1-dom-là-gì&#34;&gt;1. DOM là gì?&lt;/h2&gt;
 &lt;p&gt;DOM là mô hình biểu diễn cấu trúc HTML dưới dạng cây đối tượng.&lt;/p&gt;
 &lt;h2 id=&#34;2-xử-lý-sự-kiện&#34;&gt;2. Xử lý sự kiện&lt;/h2&gt;
@@ -82,9 +82,9 @@
     </item>
     <item>
       <title>Biến, hàm và scope trong JavaScript</title>
-      <link>http://localhost:1313/posts/bien-ham-scope-javascript/</link>
+      <link>https://vuminhthien5.github.io/posts/bien-ham-scope-javascript/</link>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/bien-ham-scope-javascript/</guid>
+      <guid>https://vuminhthien5.github.io/posts/bien-ham-scope-javascript/</guid>
       <description>&lt;h2 id=&#34;1-biến-trong-javascript&#34;&gt;1. Biến trong JavaScript&lt;/h2&gt;
 &lt;p&gt;Các từ khóa khai báo biến:&lt;/p&gt;
 &lt;ul&gt;
@@ -106,9 +106,9 @@
     </item>
     <item>
       <title>JavaScript là gì? Ứng dụng trong Web</title>
-      <link>http://localhost:1313/posts/gioi-thieu-javascript/</link>
+      <link>https://vuminhthien5.github.io/posts/gioi-thieu-javascript/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/gioi-thieu-javascript/</guid>
+      <guid>https://vuminhthien5.github.io/posts/gioi-thieu-javascript/</guid>
       <description>&lt;h2 id=&#34;1-javascript-là-gì&#34;&gt;1. JavaScript là gì?&lt;/h2&gt;
 &lt;p&gt;JavaScript là ngôn ngữ lập trình kịch bản chạy trên trình duyệt web.&lt;/p&gt;
 &lt;h2 id=&#34;2-vai-trò-của-javascript&#34;&gt;2. Vai trò của JavaScript&lt;/h2&gt;

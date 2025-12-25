@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Java on Vũ Minh Thiện | Blog &amp; Portfolio</title>
-    <link>http://localhost:1313/tags/java/</link>
+    <link>https://vuminhthien5.github.io/tags/java/</link>
     <description>Recent content in Java on Vũ Minh Thiện | Blog &amp; Portfolio</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>vi</language>
     <lastBuildDate>Sun, 05 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://vuminhthien5.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lập trình Socket TCP trong Java</title>
-      <link>http://localhost:1313/posts/socket-tcp-java/</link>
+      <link>https://vuminhthien5.github.io/posts/socket-tcp-java/</link>
       <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/socket-tcp-java/</guid>
+      <guid>https://vuminhthien5.github.io/posts/socket-tcp-java/</guid>
       <description>&lt;h2 id=&#34;1-socket-là-gì&#34;&gt;1. Socket là gì?&lt;/h2&gt;
 &lt;p&gt;Socket là cơ chế cho phép hai chương trình giao tiếp qua mạng.&lt;/p&gt;
 &lt;h2 id=&#34;2-tcp-trong-java&#34;&gt;2. TCP trong Java&lt;/h2&gt;
@@ -28,9 +28,9 @@
     </item>
     <item>
       <title>Xử lý Exception trong Java</title>
-      <link>http://localhost:1313/posts/xu-ly-exception-java/</link>
+      <link>https://vuminhthien5.github.io/posts/xu-ly-exception-java/</link>
       <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/xu-ly-exception-java/</guid>
+      <guid>https://vuminhthien5.github.io/posts/xu-ly-exception-java/</guid>
       <description>&lt;h2 id=&#34;1-exception-là-gì&#34;&gt;1. Exception là gì?&lt;/h2&gt;
 &lt;p&gt;Exception là các lỗi xảy ra trong quá trình thực thi chương trình.&lt;/p&gt;
 &lt;h2 id=&#34;2-cách-xử-lý-exception&#34;&gt;2. Cách xử lý Exception&lt;/h2&gt;
@@ -50,9 +50,9 @@
     </item>
     <item>
       <title>Lập trình hướng đối tượng trong Java</title>
-      <link>http://localhost:1313/posts/lap-trinh-huong-doi-tuong-java/</link>
+      <link>https://vuminhthien5.github.io/posts/lap-trinh-huong-doi-tuong-java/</link>
       <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/lap-trinh-huong-doi-tuong-java/</guid>
+      <guid>https://vuminhthien5.github.io/posts/lap-trinh-huong-doi-tuong-java/</guid>
       <description>&lt;h2 id=&#34;1-oop-là-gì&#34;&gt;1. OOP là gì?&lt;/h2&gt;
 &lt;p&gt;Lập trình hướng đối tượng (OOP) là phương pháp lập trình dựa trên các đối tượng.&lt;/p&gt;
 &lt;h2 id=&#34;2-4-tính-chất-của-oop&#34;&gt;2. 4 tính chất của OOP&lt;/h2&gt;
@@ -78,9 +78,9 @@
     </item>
     <item>
       <title>Cấu trúc chương trình Java cơ bản</title>
-      <link>http://localhost:1313/posts/cau-truc-chuong-trinh-java/</link>
+      <link>https://vuminhthien5.github.io/posts/cau-truc-chuong-trinh-java/</link>
       <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/cau-truc-chuong-trinh-java/</guid>
+      <guid>https://vuminhthien5.github.io/posts/cau-truc-chuong-trinh-java/</guid>
       <description>&lt;h2 id=&#34;1-cấu-trúc-tổng-quát&#34;&gt;1. Cấu trúc tổng quát&lt;/h2&gt;
 &lt;p&gt;Một chương trình Java cơ bản gồm:&lt;/p&gt;
 &lt;ul&gt;
@@ -103,9 +103,9 @@
     </item>
     <item>
       <title>Giới thiệu ngôn ngữ lập trình Java</title>
-      <link>http://localhost:1313/posts/gioi-thieu-java/</link>
+      <link>https://vuminhthien5.github.io/posts/gioi-thieu-java/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/gioi-thieu-java/</guid>
+      <guid>https://vuminhthien5.github.io/posts/gioi-thieu-java/</guid>
       <description>&lt;h2 id=&#34;1-java-là-gì&#34;&gt;1. Java là gì?&lt;/h2&gt;
 &lt;p&gt;Java là một ngôn ngữ lập trình hướng đối tượng, được phát triển bởi Sun Microsystems
 (nay thuộc Oracle). Java nổi tiếng với triết lý &lt;strong&gt;“Write Once, Run Anywhere”&lt;/strong&gt; –
