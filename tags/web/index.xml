@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Web on Vũ Minh Thiện | Blog &amp; Portfolio</title>
-    <link>https://vuminhthien5.github.io/tags/web/</link>
+    <link>http://localhost:1313/tags/web/</link>
     <description>Recent content in Web on Vũ Minh Thiện | Blog &amp; Portfolio</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>vi</language>
     <lastBuildDate>Mon, 13 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://vuminhthien5.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Các giao thức mạng phổ biến: HTTP, HTTPS, FTP, DNS</title>
-      <link>https://vuminhthien5.github.io/posts/cac-giao-thuc-mang-pho-bien/</link>
+      <link>http://localhost:1313/posts/cac-giao-thuc-mang-pho-bien/</link>
       <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://vuminhthien5.github.io/posts/cac-giao-thuc-mang-pho-bien/</guid>
+      <guid>http://localhost:1313/posts/cac-giao-thuc-mang-pho-bien/</guid>
       <description>&lt;h2 id=&#34;1-http-và-https&#34;&gt;1. HTTP và HTTPS&lt;/h2&gt;
 &lt;p&gt;HTTP là giao thức truyền tải dữ liệu trên Web.&lt;br&gt;
 HTTPS là phiên bản bảo mật hơn, sử dụng mã hóa SSL/TLS.&lt;/p&gt;
@@ -25,9 +25,9 @@ HTTPS là phiên bản bảo mật hơn, sử dụng mã hóa SSL/TLS.&lt;/p&gt;
     </item>
     <item>
       <title>JavaScript là gì? Ứng dụng trong Web</title>
-      <link>https://vuminhthien5.github.io/posts/gioi-thieu-javascript/</link>
+      <link>http://localhost:1313/posts/gioi-thieu-javascript/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://vuminhthien5.github.io/posts/gioi-thieu-javascript/</guid>
+      <guid>http://localhost:1313/posts/gioi-thieu-javascript/</guid>
       <description>&lt;h2 id=&#34;1-javascript-là-gì&#34;&gt;1. JavaScript là gì?&lt;/h2&gt;
 &lt;p&gt;JavaScript là ngôn ngữ lập trình kịch bản chạy trên trình duyệt web.&lt;/p&gt;
 &lt;h2 id=&#34;2-vai-trò-của-javascript&#34;&gt;2. Vai trò của JavaScript&lt;/h2&gt;
