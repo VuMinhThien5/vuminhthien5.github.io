@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vũ Minh Thiện | Blog &amp; Portfolio</title>
+    <link>https://vuminhthien5.github.io/</link>
+    <description>Recent content on Vũ Minh Thiện | Blog &amp; Portfolio</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>vi</language>
+    <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://vuminhthien5.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dự án cá nhân</title>
+      <link>https://vuminhthien5.github.io/projects/</link>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/projects/</guid>
+      <description>Các dự án cá nhân về ASP.NET, SQL Server, Hugo và GitHub Pages</description>
+    </item>
+    <item>
+      <title>Promise và xử lý bất đồng bộ trong JavaScript</title>
+      <link>https://vuminhthien5.github.io/posts/bat-dong-bo-trong-javascript/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/bat-dong-bo-trong-javascript/</guid>
+      <description>&lt;h2 id=&#34;1-lập-trình-bất-đồng-bộ-là-gì&#34;&gt;1. Lập trình bất đồng bộ là gì?&lt;/h2&gt;
+&lt;p&gt;Bất đồng bộ giúp chương trình không bị chặn khi xử lý các tác vụ mất nhiều thời gian như gọi API hoặc đọc dữ liệu.&lt;/p&gt;
+&lt;h2 id=&#34;2-promise&#34;&gt;2. Promise&lt;/h2&gt;
+&lt;p&gt;Promise đại diện cho một giá trị sẽ có trong tương lai, có 3 trạng thái:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pending&lt;/li&gt;
+&lt;li&gt;Fulfilled&lt;/li&gt;
+&lt;li&gt;Rejected&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-async--await&#34;&gt;3. async / await&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;async / await&lt;/code&gt; giúp viết code bất đồng bộ dễ đọc và dễ bảo trì hơn.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kiểu dữ liệu và toán tử trong JavaScript</title>
+      <link>https://vuminhthien5.github.io/posts/kieu-du-lieu-trong-javascript/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/kieu-du-lieu-trong-javascript/</guid>
+      <description>&lt;h2 id=&#34;1-kiểu-dữ-liệu-trong-javascript&#34;&gt;1. Kiểu dữ liệu trong JavaScript&lt;/h2&gt;
+&lt;p&gt;JavaScript hỗ trợ nhiều kiểu dữ liệu như:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Number&lt;/li&gt;
+&lt;li&gt;String&lt;/li&gt;
+&lt;li&gt;Boolean&lt;/li&gt;
+&lt;li&gt;Object&lt;/li&gt;
+&lt;li&gt;Array&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-toán-tử&#34;&gt;2. Toán tử&lt;/h2&gt;
+&lt;p&gt;JavaScript có các toán tử:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Toán tử số học: &lt;code&gt;+&lt;/code&gt;, &lt;code&gt;-&lt;/code&gt;, &lt;code&gt;*&lt;/code&gt;, &lt;code&gt;/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Toán tử so sánh: &lt;code&gt;==&lt;/code&gt;, &lt;code&gt;===&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Toán tử logic: &lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt;, &lt;code&gt;||&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Việc hiểu rõ kiểu dữ liệu giúp lập trình hiệu quả và tránh lỗi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Các giao thức mạng phổ biến: HTTP, HTTPS, FTP, DNS</title>
+      <link>https://vuminhthien5.github.io/posts/cac-giao-thuc-mang-pho-bien/</link>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/cac-giao-thuc-mang-pho-bien/</guid>
+      <description>&lt;h2 id=&#34;1-http-và-https&#34;&gt;1. HTTP và HTTPS&lt;/h2&gt;
+&lt;p&gt;HTTP là giao thức truyền tải dữ liệu trên Web.&lt;br&gt;
+HTTPS là phiên bản bảo mật hơn, sử dụng mã hóa SSL/TLS.&lt;/p&gt;
+&lt;h2 id=&#34;2-ftp&#34;&gt;2. FTP&lt;/h2&gt;
+&lt;p&gt;FTP dùng để truyền file giữa máy client và server.&lt;/p&gt;
+&lt;h2 id=&#34;3-dns&#34;&gt;3. DNS&lt;/h2&gt;
+&lt;p&gt;DNS giúp chuyển đổi tên miền (ví dụ google.com) thành địa chỉ IP để máy tính có thể giao tiếp với nhau.&lt;/p&gt;
+&lt;h2 id=&#34;4-vai-trò-trong-lập-trình&#34;&gt;4. Vai trò trong lập trình&lt;/h2&gt;
+&lt;p&gt;Các giao thức này là nền tảng cho Web, API và các hệ thống Client–Server.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Địa chỉ IP, Subnet Mask và cách hoạt động</title>
+      <link>https://vuminhthien5.github.io/posts/dia-chi-ip-va-subnet/</link>
+      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/dia-chi-ip-va-subnet/</guid>
+      <description>&lt;h2 id=&#34;1-địa-chỉ-ip-là-gì&#34;&gt;1. Địa chỉ IP là gì?&lt;/h2&gt;
+&lt;p&gt;Địa chỉ IP là một chuỗi số dùng để định danh các thiết bị trong mạng.&lt;br&gt;
+IPv4 là dạng phổ biến nhất hiện nay, gồm 4 nhóm số từ 0 đến 255.&lt;/p&gt;
+&lt;p&gt;Ví dụ: &lt;code&gt;192.168.1.1&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2-subnet-mask&#34;&gt;2. Subnet Mask&lt;/h2&gt;
+&lt;p&gt;Subnet Mask giúp xác định phần mạng và phần host trong một địa chỉ IP.&lt;/p&gt;
+&lt;p&gt;Ví dụ:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;IP: &lt;code&gt;192.168.1.10&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Subnet Mask: &lt;code&gt;255.255.255.0&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-ip-công-cộng-và-ip-riêng&#34;&gt;3. IP công cộng và IP riêng&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;IP riêng:&lt;/strong&gt; Dùng trong mạng nội bộ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IP công cộng:&lt;/strong&gt; Dùng để truy cập Internet&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Thiết bị mạng cơ bản: Router, Switch, Access Point</title>
+      <link>https://vuminhthien5.github.io/posts/thiet-bi-mang-co-ban/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/thiet-bi-mang-co-ban/</guid>
+      <description>&lt;h2 id=&#34;1-router&#34;&gt;1. Router&lt;/h2&gt;
+&lt;p&gt;Router là thiết bị định tuyến, có nhiệm vụ kết nối các mạng khác nhau và định hướng gói tin đến đúng đích.&lt;/p&gt;
+&lt;h2 id=&#34;2-switch&#34;&gt;2. Switch&lt;/h2&gt;
+&lt;p&gt;Switch dùng để kết nối các thiết bị trong cùng một mạng LAN.&lt;br&gt;
+Switch hoạt động hiệu quả hơn Hub vì chỉ gửi dữ liệu đến đúng thiết bị nhận.&lt;/p&gt;
+&lt;h2 id=&#34;3-access-point&#34;&gt;3. Access Point&lt;/h2&gt;
+&lt;p&gt;Access Point cho phép các thiết bị không dây kết nối vào mạng có dây thông qua Wi-Fi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mạng máy tính là gì? Các loại mạng phổ biến</title>
+      <link>https://vuminhthien5.github.io/posts/mang-may-tinh-la-gi/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/mang-may-tinh-la-gi/</guid>
+      <description>&lt;h2 id=&#34;1-mạng-máy-tính-là-gì&#34;&gt;1. Mạng máy tính là gì?&lt;/h2&gt;
+&lt;p&gt;Mạng máy tính là hệ thống các thiết bị được kết nối với nhau nhằm chia sẻ dữ liệu, tài nguyên và thông tin. Các thiết bị trong mạng có thể là máy tính, máy chủ, điện thoại, máy in hoặc các thiết bị thông minh khác.&lt;/p&gt;
+&lt;p&gt;Mạng máy tính đóng vai trò quan trọng trong học tập, làm việc và phát triển các hệ thống phần mềm hiện đại.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fetch API và gọi REST API bằng JavaScript</title>
+      <link>https://vuminhthien5.github.io/posts/fetch-api-javascript/</link>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/fetch-api-javascript/</guid>
+      <description>&lt;h2 id=&#34;1-fetch-api-là-gì&#34;&gt;1. Fetch API là gì?&lt;/h2&gt;
+&lt;p&gt;Fetch API dùng để gửi request HTTP từ trình duyệt.&lt;/p&gt;
+&lt;h2 id=&#34;2-ví-dụ-gọi-api&#34;&gt;2. Ví dụ gọi API&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;fetch&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://api.example.com/data&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    .&lt;span style=&#34;color:#a6e22e&#34;&gt;then&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;response&lt;/span&gt; =&amp;gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;response&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;json&lt;/span&gt;())
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    .&lt;span style=&#34;color:#a6e22e&#34;&gt;then&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;data&lt;/span&gt; =&amp;gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;data&lt;/span&gt;));
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;##&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3.&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Kết&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;luận&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Fetch&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;API&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;là&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;công&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;cụ&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;quan&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;trọng&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;trong&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;web&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;hiện&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;đại&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>DOM và xử lý sự kiện trong JavaScript</title>
+      <link>https://vuminhthien5.github.io/posts/dom-va-su-kien-javascript/</link>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/dom-va-su-kien-javascript/</guid>
+      <description>&lt;h2 id=&#34;1-dom-là-gì&#34;&gt;1. DOM là gì?&lt;/h2&gt;
+&lt;p&gt;DOM là mô hình biểu diễn cấu trúc HTML dưới dạng cây đối tượng.&lt;/p&gt;
+&lt;h2 id=&#34;2-xử-lý-sự-kiện&#34;&gt;2. Xử lý sự kiện&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;button&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;addEventListener&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;click&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;alert&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Button clicked&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;##&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3.&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Kết&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;luận&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;DOM&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;giúp&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;JavaScript&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;tương&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;tác&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;trực&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;tiếp&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;với&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;trang&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;web&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Biến, hàm và scope trong JavaScript</title>
+      <link>https://vuminhthien5.github.io/posts/bien-ham-scope-javascript/</link>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/bien-ham-scope-javascript/</guid>
+      <description>&lt;h2 id=&#34;1-biến-trong-javascript&#34;&gt;1. Biến trong JavaScript&lt;/h2&gt;
+&lt;p&gt;Các từ khóa khai báo biến:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;var&lt;/li&gt;
+&lt;li&gt;let&lt;/li&gt;
+&lt;li&gt;const&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-hàm&#34;&gt;2. Hàm&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;hello&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello JavaScript&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;##&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3.&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Scope&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Scope&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;xác&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;định&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;phạm&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;vi&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;truy&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;cập&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;của&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;biến&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;##&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;4.&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Kết&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;luận&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Hiểu&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rõ&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;biến&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;và&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;scope&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;giúp&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;tránh&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;lỗi&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;logic&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript là gì? Ứng dụng trong Web</title>
+      <link>https://vuminhthien5.github.io/posts/gioi-thieu-javascript/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/gioi-thieu-javascript/</guid>
+      <description>&lt;h2 id=&#34;1-javascript-là-gì&#34;&gt;1. JavaScript là gì?&lt;/h2&gt;
+&lt;p&gt;JavaScript là ngôn ngữ lập trình kịch bản chạy trên trình duyệt web.&lt;/p&gt;
+&lt;h2 id=&#34;2-vai-trò-của-javascript&#34;&gt;2. Vai trò của JavaScript&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tạo tương tác cho website&lt;/li&gt;
+&lt;li&gt;Xử lý sự kiện&lt;/li&gt;
+&lt;li&gt;Giao tiếp với server&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-kết-luận&#34;&gt;3. Kết luận&lt;/h2&gt;
+&lt;p&gt;JavaScript là ngôn ngữ không thể thiếu trong phát triển web hiện đại.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lập trình Socket TCP trong Java</title>
+      <link>https://vuminhthien5.github.io/posts/socket-tcp-java/</link>
+      <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/socket-tcp-java/</guid>
+      <description>&lt;h2 id=&#34;1-socket-là-gì&#34;&gt;1. Socket là gì?&lt;/h2&gt;
+&lt;p&gt;Socket là cơ chế cho phép hai chương trình giao tiếp qua mạng.&lt;/p&gt;
+&lt;h2 id=&#34;2-tcp-trong-java&#34;&gt;2. TCP trong Java&lt;/h2&gt;
+&lt;p&gt;Java hỗ trợ TCP thông qua &lt;code&gt;ServerSocket&lt;/code&gt; và &lt;code&gt;Socket&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;3-ứng-dụng&#34;&gt;3. Ứng dụng&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Chat&lt;/li&gt;
+&lt;li&gt;Truyền dữ liệu&lt;/li&gt;
+&lt;li&gt;Ứng dụng client-server&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;4-kết-luận&#34;&gt;4. Kết luận&lt;/h2&gt;
+&lt;p&gt;Socket TCP là nền tảng quan trọng trong lập trình mạng Java.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Xử lý Exception trong Java</title>
+      <link>https://vuminhthien5.github.io/posts/xu-ly-exception-java/</link>
+      <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/xu-ly-exception-java/</guid>
+      <description>&lt;h2 id=&#34;1-exception-là-gì&#34;&gt;1. Exception là gì?&lt;/h2&gt;
+&lt;p&gt;Exception là các lỗi xảy ra trong quá trình thực thi chương trình.&lt;/p&gt;
+&lt;h2 id=&#34;2-cách-xử-lý-exception&#34;&gt;2. Cách xử lý Exception&lt;/h2&gt;
+&lt;p&gt;Java sử dụng khối &lt;code&gt;try - catch&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;try&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 10 &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; 0;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;} &lt;span style=&#34;color:#66d9ef&#34;&gt;catch&lt;/span&gt; (Exception e) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Có lỗi xảy ra&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;##&lt;/span&gt; 3. Ý nghĩa
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Giúp chương trình không bị dừng đột ngột khi gặp lỗi.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;##&lt;/span&gt; 4. Kết luận
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Xử lý Exception giúp chương trình ổn định hơn.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Lập trình hướng đối tượng trong Java</title>
+      <link>https://vuminhthien5.github.io/posts/lap-trinh-huong-doi-tuong-java/</link>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/lap-trinh-huong-doi-tuong-java/</guid>
+      <description>&lt;h2 id=&#34;1-oop-là-gì&#34;&gt;1. OOP là gì?&lt;/h2&gt;
+&lt;p&gt;Lập trình hướng đối tượng (OOP) là phương pháp lập trình dựa trên các đối tượng.&lt;/p&gt;
+&lt;h2 id=&#34;2-4-tính-chất-của-oop&#34;&gt;2. 4 tính chất của OOP&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Đóng gói&lt;/li&gt;
+&lt;li&gt;Kế thừa&lt;/li&gt;
+&lt;li&gt;Đa hình&lt;/li&gt;
+&lt;li&gt;Trừu tượng&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-ví-dụ-class-trong-java&#34;&gt;3. Ví dụ Class trong Java&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;SinhVien&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    String ten;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; tuoi;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;hienThi&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(ten &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; - &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; tuoi);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;##&lt;/span&gt; 4. Kết luận
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;OOP giúp chương trình dễ bảo trì và mở rộng.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Cấu trúc chương trình Java cơ bản</title>
+      <link>https://vuminhthien5.github.io/posts/cau-truc-chuong-trinh-java/</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/cau-truc-chuong-trinh-java/</guid>
+      <description>&lt;h2 id=&#34;1-cấu-trúc-tổng-quát&#34;&gt;1. Cấu trúc tổng quát&lt;/h2&gt;
+&lt;p&gt;Một chương trình Java cơ bản gồm:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Package&lt;/li&gt;
+&lt;li&gt;Import&lt;/li&gt;
+&lt;li&gt;Class&lt;/li&gt;
+&lt;li&gt;Hàm main&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-ví-dụ-chương-trình-java-đơn-giản&#34;&gt;2. Ví dụ chương trình Java đơn giản&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;HelloWorld&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello Java&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;##&lt;/span&gt; 3. Kết Luận
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Nắm vững cấu trúc chương trình là bước đầu quan trọng khi học Java.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Giới thiệu ngôn ngữ lập trình Java</title>
+      <link>https://vuminhthien5.github.io/posts/gioi-thieu-java/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/gioi-thieu-java/</guid>
+      <description>&lt;h2 id=&#34;1-java-là-gì&#34;&gt;1. Java là gì?&lt;/h2&gt;
+&lt;p&gt;Java là một ngôn ngữ lập trình hướng đối tượng, được phát triển bởi Sun Microsystems
+(nay thuộc Oracle). Java nổi tiếng với triết lý &lt;strong&gt;“Write Once, Run Anywhere”&lt;/strong&gt; –
+viết một lần, chạy được trên nhiều hệ điều hành khác nhau.&lt;/p&gt;
+&lt;h2 id=&#34;2-đặc-điểm-nổi-bật-của-java&#34;&gt;2. Đặc điểm nổi bật của Java&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hướng đối tượng&lt;/li&gt;
+&lt;li&gt;Độc lập nền tảng&lt;/li&gt;
+&lt;li&gt;Bảo mật cao&lt;/li&gt;
+&lt;li&gt;Thư viện phong phú&lt;/li&gt;
+&lt;li&gt;Cộng đồng lớn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-ứng-dụng-của-java&#34;&gt;3. Ứng dụng của Java&lt;/h2&gt;
+&lt;p&gt;Java được sử dụng rộng rãi trong:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Giới thiệu</title>
+      <link>https://vuminhthien5.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/about/</guid>
+      <description>&lt;h2 id=&#34;-xin-chào&#34;&gt;👋 Xin chào&lt;/h2&gt;
+&lt;div style=&#34;display:flex; justify-content:center; margin:30px 0;&#34;&gt;
+  &lt;img src=&#34;https://vuminhthien5.github.io/profile.jpg&#34;
+       alt=&#34;Vũ Minh Thiện&#34;
+       style=&#34;
+         width:180px;
+         border-radius:50%;
+         border:3px solid #eee;
+         box-shadow:0 4px 10px rgba(0,0,0,0.15);
+       &#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;Tôi là Vũ Minh Thiện, sinh viên Công nghệ Thông tin tại HUTECH, có định hướng phát triển trong lĩnh vực lập trình ứng dụng, web và mobile.&lt;/p&gt;
+&lt;p&gt;Niềm yêu thích với lập trình bắt đầu từ những dự án nhỏ trong quá trình học, từ Java cơ bản, lập trình Socket đến xây dựng website với ASP.NET Core. Mỗi sản phẩm hoàn thành đều giúp tôi hiểu rõ hơn về cách hệ thống vận hành và cách giải quyết vấn đề bằng tư duy kỹ thuật.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

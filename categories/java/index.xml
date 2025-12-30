@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Java on Vũ Minh Thiện | Blog &amp; Portfolio</title>
+    <link>https://vuminhthien5.github.io/categories/java/</link>
+    <description>Recent content in Java on Vũ Minh Thiện | Blog &amp; Portfolio</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>vi</language>
+    <lastBuildDate>Sun, 05 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://vuminhthien5.github.io/categories/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lập trình Socket TCP trong Java</title>
+      <link>https://vuminhthien5.github.io/posts/socket-tcp-java/</link>
+      <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/socket-tcp-java/</guid>
+      <description>&lt;h2 id=&#34;1-socket-là-gì&#34;&gt;1. Socket là gì?&lt;/h2&gt;
+&lt;p&gt;Socket là cơ chế cho phép hai chương trình giao tiếp qua mạng.&lt;/p&gt;
+&lt;h2 id=&#34;2-tcp-trong-java&#34;&gt;2. TCP trong Java&lt;/h2&gt;
+&lt;p&gt;Java hỗ trợ TCP thông qua &lt;code&gt;ServerSocket&lt;/code&gt; và &lt;code&gt;Socket&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;3-ứng-dụng&#34;&gt;3. Ứng dụng&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Chat&lt;/li&gt;
+&lt;li&gt;Truyền dữ liệu&lt;/li&gt;
+&lt;li&gt;Ứng dụng client-server&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;4-kết-luận&#34;&gt;4. Kết luận&lt;/h2&gt;
+&lt;p&gt;Socket TCP là nền tảng quan trọng trong lập trình mạng Java.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Xử lý Exception trong Java</title>
+      <link>https://vuminhthien5.github.io/posts/xu-ly-exception-java/</link>
+      <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/xu-ly-exception-java/</guid>
+      <description>&lt;h2 id=&#34;1-exception-là-gì&#34;&gt;1. Exception là gì?&lt;/h2&gt;
+&lt;p&gt;Exception là các lỗi xảy ra trong quá trình thực thi chương trình.&lt;/p&gt;
+&lt;h2 id=&#34;2-cách-xử-lý-exception&#34;&gt;2. Cách xử lý Exception&lt;/h2&gt;
+&lt;p&gt;Java sử dụng khối &lt;code&gt;try - catch&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;try&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 10 &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; 0;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;} &lt;span style=&#34;color:#66d9ef&#34;&gt;catch&lt;/span&gt; (Exception e) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Có lỗi xảy ra&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;##&lt;/span&gt; 3. Ý nghĩa
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Giúp chương trình không bị dừng đột ngột khi gặp lỗi.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;##&lt;/span&gt; 4. Kết luận
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Xử lý Exception giúp chương trình ổn định hơn.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Lập trình hướng đối tượng trong Java</title>
+      <link>https://vuminhthien5.github.io/posts/lap-trinh-huong-doi-tuong-java/</link>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/lap-trinh-huong-doi-tuong-java/</guid>
+      <description>&lt;h2 id=&#34;1-oop-là-gì&#34;&gt;1. OOP là gì?&lt;/h2&gt;
+&lt;p&gt;Lập trình hướng đối tượng (OOP) là phương pháp lập trình dựa trên các đối tượng.&lt;/p&gt;
+&lt;h2 id=&#34;2-4-tính-chất-của-oop&#34;&gt;2. 4 tính chất của OOP&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Đóng gói&lt;/li&gt;
+&lt;li&gt;Kế thừa&lt;/li&gt;
+&lt;li&gt;Đa hình&lt;/li&gt;
+&lt;li&gt;Trừu tượng&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-ví-dụ-class-trong-java&#34;&gt;3. Ví dụ Class trong Java&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;SinhVien&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    String ten;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; tuoi;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;hienThi&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(ten &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; - &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; tuoi);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;##&lt;/span&gt; 4. Kết luận
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;OOP giúp chương trình dễ bảo trì và mở rộng.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Cấu trúc chương trình Java cơ bản</title>
+      <link>https://vuminhthien5.github.io/posts/cau-truc-chuong-trinh-java/</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/cau-truc-chuong-trinh-java/</guid>
+      <description>&lt;h2 id=&#34;1-cấu-trúc-tổng-quát&#34;&gt;1. Cấu trúc tổng quát&lt;/h2&gt;
+&lt;p&gt;Một chương trình Java cơ bản gồm:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Package&lt;/li&gt;
+&lt;li&gt;Import&lt;/li&gt;
+&lt;li&gt;Class&lt;/li&gt;
+&lt;li&gt;Hàm main&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-ví-dụ-chương-trình-java-đơn-giản&#34;&gt;2. Ví dụ chương trình Java đơn giản&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;HelloWorld&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello Java&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;##&lt;/span&gt; 3. Kết Luận
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Nắm vững cấu trúc chương trình là bước đầu quan trọng khi học Java.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Giới thiệu ngôn ngữ lập trình Java</title>
+      <link>https://vuminhthien5.github.io/posts/gioi-thieu-java/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/gioi-thieu-java/</guid>
+      <description>&lt;h2 id=&#34;1-java-là-gì&#34;&gt;1. Java là gì?&lt;/h2&gt;
+&lt;p&gt;Java là một ngôn ngữ lập trình hướng đối tượng, được phát triển bởi Sun Microsystems
+(nay thuộc Oracle). Java nổi tiếng với triết lý &lt;strong&gt;“Write Once, Run Anywhere”&lt;/strong&gt; –
+viết một lần, chạy được trên nhiều hệ điều hành khác nhau.&lt;/p&gt;
+&lt;h2 id=&#34;2-đặc-điểm-nổi-bật-của-java&#34;&gt;2. Đặc điểm nổi bật của Java&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hướng đối tượng&lt;/li&gt;
+&lt;li&gt;Độc lập nền tảng&lt;/li&gt;
+&lt;li&gt;Bảo mật cao&lt;/li&gt;
+&lt;li&gt;Thư viện phong phú&lt;/li&gt;
+&lt;li&gt;Cộng đồng lớn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-ứng-dụng-của-java&#34;&gt;3. Ứng dụng của Java&lt;/h2&gt;
+&lt;p&gt;Java được sử dụng rộng rãi trong:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Lap Trinh on Vũ Minh Thiện | Blog &amp; Portfolio</title>
+    <link>https://vuminhthien5.github.io/tags/lap-trinh/</link>
+    <description>Recent content in Lap Trinh on Vũ Minh Thiện | Blog &amp; Portfolio</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>vi</language>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://vuminhthien5.github.io/tags/lap-trinh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Giới thiệu ngôn ngữ lập trình Java</title>
+      <link>https://vuminhthien5.github.io/posts/gioi-thieu-java/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/gioi-thieu-java/</guid>
+      <description>&lt;h2 id=&#34;1-java-là-gì&#34;&gt;1. Java là gì?&lt;/h2&gt;
+&lt;p&gt;Java là một ngôn ngữ lập trình hướng đối tượng, được phát triển bởi Sun Microsystems
+(nay thuộc Oracle). Java nổi tiếng với triết lý &lt;strong&gt;“Write Once, Run Anywhere”&lt;/strong&gt; –
+viết một lần, chạy được trên nhiều hệ điều hành khác nhau.&lt;/p&gt;
+&lt;h2 id=&#34;2-đặc-điểm-nổi-bật-của-java&#34;&gt;2. Đặc điểm nổi bật của Java&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hướng đối tượng&lt;/li&gt;
+&lt;li&gt;Độc lập nền tảng&lt;/li&gt;
+&lt;li&gt;Bảo mật cao&lt;/li&gt;
+&lt;li&gt;Thư viện phong phú&lt;/li&gt;
+&lt;li&gt;Cộng đồng lớn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-ứng-dụng-của-java&#34;&gt;3. Ứng dụng của Java&lt;/h2&gt;
+&lt;p&gt;Java được sử dụng rộng rãi trong:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

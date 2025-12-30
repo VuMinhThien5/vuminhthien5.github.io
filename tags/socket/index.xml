@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Socket on Vũ Minh Thiện | Blog &amp; Portfolio</title>
+    <link>https://vuminhthien5.github.io/tags/socket/</link>
+    <description>Recent content in Socket on Vũ Minh Thiện | Blog &amp; Portfolio</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>vi</language>
+    <lastBuildDate>Sun, 05 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://vuminhthien5.github.io/tags/socket/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lập trình Socket TCP trong Java</title>
+      <link>https://vuminhthien5.github.io/posts/socket-tcp-java/</link>
+      <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/socket-tcp-java/</guid>
+      <description>&lt;h2 id=&#34;1-socket-là-gì&#34;&gt;1. Socket là gì?&lt;/h2&gt;
+&lt;p&gt;Socket là cơ chế cho phép hai chương trình giao tiếp qua mạng.&lt;/p&gt;
+&lt;h2 id=&#34;2-tcp-trong-java&#34;&gt;2. TCP trong Java&lt;/h2&gt;
+&lt;p&gt;Java hỗ trợ TCP thông qua &lt;code&gt;ServerSocket&lt;/code&gt; và &lt;code&gt;Socket&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;3-ứng-dụng&#34;&gt;3. Ứng dụng&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Chat&lt;/li&gt;
+&lt;li&gt;Truyền dữ liệu&lt;/li&gt;
+&lt;li&gt;Ứng dụng client-server&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;4-kết-luận&#34;&gt;4. Kết luận&lt;/h2&gt;
+&lt;p&gt;Socket TCP là nền tảng quan trọng trong lập trình mạng Java.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

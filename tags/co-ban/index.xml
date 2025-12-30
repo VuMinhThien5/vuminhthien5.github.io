@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Co Ban on Vũ Minh Thiện | Blog &amp; Portfolio</title>
+    <link>https://vuminhthien5.github.io/tags/co-ban/</link>
+    <description>Recent content in Co Ban on Vũ Minh Thiện | Blog &amp; Portfolio</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>vi</language>
+    <lastBuildDate>Tue, 07 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://vuminhthien5.github.io/tags/co-ban/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Biến, hàm và scope trong JavaScript</title>
+      <link>https://vuminhthien5.github.io/posts/bien-ham-scope-javascript/</link>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/bien-ham-scope-javascript/</guid>
+      <description>&lt;h2 id=&#34;1-biến-trong-javascript&#34;&gt;1. Biến trong JavaScript&lt;/h2&gt;
+&lt;p&gt;Các từ khóa khai báo biến:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;var&lt;/li&gt;
+&lt;li&gt;let&lt;/li&gt;
+&lt;li&gt;const&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-hàm&#34;&gt;2. Hàm&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;hello&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello JavaScript&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;##&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3.&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Scope&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Scope&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;xác&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;định&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;phạm&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;vi&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;truy&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;cập&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;của&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;biến&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;##&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;4.&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Kết&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;luận&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Hiểu&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rõ&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;biến&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;và&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;scope&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;giúp&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;tránh&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;lỗi&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;logic&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Cấu trúc chương trình Java cơ bản</title>
+      <link>https://vuminhthien5.github.io/posts/cau-truc-chuong-trinh-java/</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/cau-truc-chuong-trinh-java/</guid>
+      <description>&lt;h2 id=&#34;1-cấu-trúc-tổng-quát&#34;&gt;1. Cấu trúc tổng quát&lt;/h2&gt;
+&lt;p&gt;Một chương trình Java cơ bản gồm:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Package&lt;/li&gt;
+&lt;li&gt;Import&lt;/li&gt;
+&lt;li&gt;Class&lt;/li&gt;
+&lt;li&gt;Hàm main&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-ví-dụ-chương-trình-java-đơn-giản&#34;&gt;2. Ví dụ chương trình Java đơn giản&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;HelloWorld&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello Java&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;##&lt;/span&gt; 3. Kết Luận
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Nắm vững cấu trúc chương trình là bước đầu quan trọng khi học Java.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

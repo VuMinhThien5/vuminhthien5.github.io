@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Web on Vũ Minh Thiện | Blog &amp; Portfolio</title>
+    <link>https://vuminhthien5.github.io/tags/web/</link>
+    <description>Recent content in Web on Vũ Minh Thiện | Blog &amp; Portfolio</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>vi</language>
+    <lastBuildDate>Mon, 13 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://vuminhthien5.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Các giao thức mạng phổ biến: HTTP, HTTPS, FTP, DNS</title>
+      <link>https://vuminhthien5.github.io/posts/cac-giao-thuc-mang-pho-bien/</link>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/cac-giao-thuc-mang-pho-bien/</guid>
+      <description>&lt;h2 id=&#34;1-http-và-https&#34;&gt;1. HTTP và HTTPS&lt;/h2&gt;
+&lt;p&gt;HTTP là giao thức truyền tải dữ liệu trên Web.&lt;br&gt;
+HTTPS là phiên bản bảo mật hơn, sử dụng mã hóa SSL/TLS.&lt;/p&gt;
+&lt;h2 id=&#34;2-ftp&#34;&gt;2. FTP&lt;/h2&gt;
+&lt;p&gt;FTP dùng để truyền file giữa máy client và server.&lt;/p&gt;
+&lt;h2 id=&#34;3-dns&#34;&gt;3. DNS&lt;/h2&gt;
+&lt;p&gt;DNS giúp chuyển đổi tên miền (ví dụ google.com) thành địa chỉ IP để máy tính có thể giao tiếp với nhau.&lt;/p&gt;
+&lt;h2 id=&#34;4-vai-trò-trong-lập-trình&#34;&gt;4. Vai trò trong lập trình&lt;/h2&gt;
+&lt;p&gt;Các giao thức này là nền tảng cho Web, API và các hệ thống Client–Server.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript là gì? Ứng dụng trong Web</title>
+      <link>https://vuminhthien5.github.io/posts/gioi-thieu-javascript/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://vuminhthien5.github.io/posts/gioi-thieu-javascript/</guid>
+      <description>&lt;h2 id=&#34;1-javascript-là-gì&#34;&gt;1. JavaScript là gì?&lt;/h2&gt;
+&lt;p&gt;JavaScript là ngôn ngữ lập trình kịch bản chạy trên trình duyệt web.&lt;/p&gt;
+&lt;h2 id=&#34;2-vai-trò-của-javascript&#34;&gt;2. Vai trò của JavaScript&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tạo tương tác cho website&lt;/li&gt;
+&lt;li&gt;Xử lý sự kiện&lt;/li&gt;
+&lt;li&gt;Giao tiếp với server&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-kết-luận&#34;&gt;3. Kết luận&lt;/h2&gt;
+&lt;p&gt;JavaScript là ngôn ngữ không thể thiếu trong phát triển web hiện đại.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
